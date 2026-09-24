@@ -1,6 +1,6 @@
 # New Orleans bike-lane reports and enforcement
 
-[Open the interactive map](https://adamdavies1915.github.io/nola-bike-lane-enforcement/)
+[Open the interactive map](https://adamdavies.dev/nola-bike-lane-enforcement/)
 
 A public-data comparison of Bike Lane Uprising vehicle-obstruction reports and New Orleans parking tickets coded `154.923(17)` (“parked within a bicycle lane”).
 
