@@ -1,0 +1,68 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Methods and findings · New Orleans bike-lane comparison</title><style>body{max-width:980px;margin:40px auto;padding:0 20px;font:16px/1.6 system-ui;color:#172b33;background:#f4f7f6}a{color:#175b87}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto}th,td{padding:10px;border-bottom:1px solid #cbd6d4;text-align:left}h1{line-height:1.2}code{overflow-wrap:anywhere}</style></head><body><a href="index.html">← Back to the map</a><h1>New Orleans: BLU reports versus bike-lane tickets</h1>
+<p><strong>The map data was recovered successfully.</strong> The earlier report's missing-data conclusion is superseded. Inspecting the working browser map revealed a separate <a href="https://feed.bikelaneuprising.com/maps-data/cities/all/all.json">public BLU pin-data file</a>, despite the map-page URL returning HTTP 404 to direct requests.</p>
+<h2>Main finding</h2>
+<p><strong>Bienville Avenue, Banks Street, Allen Toussaint Boulevard, and North Galvez Street are the strongest recent enforcement-mismatch candidates.</strong> They have repeated vehicle-obstruction reports with little or no recorded enforcement under the specific bicycle-lane parking code.</p>
+<p>Comparison period: <strong>January 1, 2025–July 31, 2026</strong>, the latest useful overlap with the previously extracted city tickets. BLU reports after July are excluded. Street totals below count only confident geographic matches; a distinct date means a calendar date in the map's <code>date</code> field, not a unique reporter.</p>
+<p>| Street | BLU vehicle reports | Distinct report dates | Bike-lane tickets | 2025 reports / tickets | Jan–Jul 2026 reports / tickets |
+|---|---:|---:|---:|---:|---:|
+| Bienville Avenue | 25 | 20 | 0 | 14 / 0 | 11 / 0 |
+| Banks Street | 23 | 20 | 1 | 12 / 1 | 11 / 0 |
+| Allen Toussaint Boulevard | 17 | 16 | 0 | 9 / 0 | 8 / 0 |
+| North Galvez Street | 38 | 22 | 12 | 18 / 5 | 20 / 7 |
+| Elysian Fields Avenue | 13 | 12 | 5 | 10 / 2 | 3 / 3 |
+| St. Claude Avenue | 64 | 48 | 38 | 55 / 26 | 9 / 12 |
+| Baronne Street | 47 | 24 | 32 | 21 / 12 | 26 / 20 |
+| Loyola Avenue | 16 | 12 | 95 | 5 / 39 | 11 / 56 |
+| Poydras Street | 8 | 5 | 54 | 4 / 36 | 4 / 18 |</p>
+<p>The comparison suggests that repeated reports on Bienville, Banks, and Allen Toussaint deserve attention alongside the much stronger ticket activity on Loyola and Poydras. It does <strong>not</strong> establish an optimal distribution of enforcement: reporting intensity and actual obstruction prevalence may differ substantially by street.</p>
+<h2>Specific blocks to inspect</h2>
+<p>Report blocks are inferred from the matched city road segment's address ranges. Ticket blocks are calculated from their recorded street address. These are screening locations, not independently verified exact geocodes.</p>
+<p>| Block | BLU vehicle reports | Distinct report dates | Bike-lane tickets |
+|---|---:|---:|---:|
+| 4300 Bienville Avenue | 16 | 13 | 0 |
+| 4300 Banks Street | 10 | 9 | 1 |
+| 2400 North Galvez Street | 12 | 6 | 1 |
+| 2300 North Galvez Street | 4 | 4 | 0 |
+| 1400 Allen Toussaint Boulevard | 5 | 5 | 0 |
+| 1500 Allen Toussaint Boulevard | 5 | 5 | 0 |
+| 600 Baronne Street | 13 | 9 | 3 |
+| 2200 St. Claude Avenue | 50 | 37 | 26 |</p>
+<p>St. Claude is the biggest recent report concentration, but it is not an unenforced corridor. The 2200 block has substantial ticket activity. North Galvez has a clearer within-corridor mismatch: repeated reports on its 2300–2400 blocks coincide with zero or one recorded bike-lane ticket.</p>
+<h2>Extraction and geographic matching</h2>
+<ol>
+<li>Identified the data URLs in the resource list of the user's working BLU map frame. The all-cities source downloaded contains 139,900 records; the already-loaded browser map displayed an older total of 138,066. The analysis uses the downloaded snapshot, not the displayed cached total.</li>
+<li>Selected <code>cityKey = new-orleans-la</code>: <strong>1,588 records</strong>, with source dates from January 31, 2020 to September 17, 2026 where present. Preserved the original features in <code>blu_new_orleans.geojson</code>.</li>
+<li>Of those records, <strong>1,468 are vehicle categories</strong>: 956 private-owner, 327 company, 113 taxi/Uber/livery/Lyft, and 72 municipal/USPS. Excluded 56 construction and 64 other-condition records from the parking comparison. Vehicle categories are a proxy; individual photos have not been adjudicated for ticket eligibility.</li>
+<li>There are <strong>14 records without coordinates</strong>, <strong>41 without dates</strong>, and <strong>one outlying coordinate in California</strong> despite a New Orleans city label. Missing dates are excluded from period comparisons. Missing/outlying coordinates are excluded from spatial rankings. The city label is a metro label; it is not an official municipal-boundary test.</li>
+<li>Retrieved <strong>28,526 city road-centerline features</strong> from the <a href="https://gis.nola.gov/arcgis/rest/services/Transportation/RoadCenterline/MapServer/0">City of New Orleans road service</a>, using its public geometry, street names, and address ranges.</li>
+<li>Matched each valid coordinate to its nearest road polyline in an approximate local meter projection centered on latitude 30°. A confident match requires <strong>distance ≤30 meters</strong> and the nearest <em>different street</em> to be <strong>at least 5 meters farther away</strong>. Intersection ties/near-ties are marked ambiguous and excluded from headline counts. This threshold describes match quality, not certainty about the original incident location or existence of a bike lane.</li>
+<li>Assigned a report to a hundred-block only when all positive address-range endpoints on that road feature fall within the same hundred-block. No invented address interpolation is used in the report tables.</li>
+<li>Compared normalized street names against the previously extracted <strong>3,727 distinct tickets</strong> under code <code>154.923(17)</code>. The recent period contains <strong>538 tickets</strong>. Original ticket-location strings remain available for audit. Other violation codes are not included.</li>
+</ol>
+<p>Within the comparison period, BLU has <strong>484 vehicle reports</strong>: <strong>383 confident street matches</strong>, <strong>78 ambiguous intersection matches</strong>, <strong>18 farther than 30 meters from a mapped centerline</strong>, and <strong>5 without coordinates</strong>. These classes reconcile to the total. All qualifying records, including excluded matches and their distances, are saved in <code>blu_reports_matched.json</code>.</p>
+<p>Basic spelling/abbreviation normalization expands street suffixes, compass prefixes, and St./Saint. Additional matching normalizes punctuation and A P/AP Tureaud; Guillaume Place is combined with Joseph Guillaume Place. Raw names are retained. The leading recent zero-ticket candidates were also checked against raw ticket strings: no recent Bienville Street/Avenue, Allen Toussaint, or Lee variants were found. Historical name changes and other spelling errors can still affect secondary streets.</p>
+<h2>Sensitivity checks</h2>
+<p>Tightening the maximum road distance from 30 meters to <strong>15 meters</strong>, while retaining the 5-meter alternative-street margin, gives:</p>
+<p>| Street | Reports at 30 m | Reports at 15 m |
+|---|---:|---:|
+| Bienville Avenue | 25 | 25 |
+| Banks Street | 23 | 22 |
+| Allen Toussaint Boulevard | 17 | 17 |
+| North Galvez Street | 38 | 36 |</p>
+<p>The leading findings are therefore not driven by loosely located pins. Excluding municipal/USPS reports leaves 25 on Bienville, 23 on Banks, 16 on Allen Toussaint, and 38 on North Galvez. Bienville's 25 reports include 21 company-vehicle reports; Banks has 13 company-vehicle reports; this suggests delivery/loading practices are worth inspecting, without inferring a particular company or driver.</p>
+<h2>Limits on interpretation</h2>
+<ul>
+<li>These are <strong>potential enforcement gaps</strong>, not proof that officers ignored complaints. BLU reporting does not establish that a city enforcement request was submitted or that an officer observed the vehicle.</li>
+<li>A vehicle obstructing a bike lane may receive another ticket code, move before an officer arrives, or qualify for an exception. Only the specific bike-lane parking code is counted here.</li>
+<li>Reports are not a random sample of cycling conditions. Distinct dates reduce the influence of a single reporting event, but cannot identify unique reporters or deduplicate repeated reports of the same vehicle. IDs are retained and distinct; events are not assumed independent.</li>
+<li>Dates use the source fields as supplied. The map does not explain whether every date is incident time or submission time. No hour-level response matching is attempted.</li>
+<li>City ticket coverage ends July 31, 2026 despite a September model-refresh date. The latest bike-lane-coded ticket is July 26. Absence of later data is not zero enforcement.</li>
+<li>Street matching is automated, using current centerlines. It does not confirm historic bike-lane layouts, and no official city-boundary polygon was applied. The named leading candidates are recognizable New Orleans streets; unmatched/outlier reports were excluded from their totals.</li>
+</ul>
+<h2>Source files and downloads</h2>
+<ul>
+<li><a href="index.html">Interactive comparison map</a></li>
+<li><a href="blu_new_orleans.geojson">New Orleans Bike Lane Uprising reports (GeoJSON)</a></li>
+</ul>
+<p>Snapshot retrieved September 24, 2026. The map embeds its comparison data and city street geometry. Leaflet requires internet access. Original report photos remain hosted by Bike Lane Uprising.</p>
+</body></html>
