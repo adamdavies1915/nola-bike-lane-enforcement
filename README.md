@@ -4,7 +4,7 @@
 
 A public-data comparison of Bike Lane Uprising vehicle-obstruction reports and New Orleans parking tickets coded `154.923(17)` (“parked within a bicycle lane”).
 
-The default view covers January 2025–September 2026. Choose an annual preset, a single month, or a custom inclusive date range; the monthly breakdown follows the selection and each month opens on the map. The original January 2025–July 2026 comparison remains available.
+The default view covers January 2025–September 2026. Use the From and Through date pickers to choose an inclusive date range; the monthly breakdown follows the selection and each month opens on the map. Any range, including the original January 2025–July 2026 comparison, can be selected with the calendars.
 
 Tickets were refreshed October 21, 2026: 3,937 distinct bicycle-lane tickets through September 30, 2026, including 210 added August–September tickets. BLU reports were refreshed October 21, 2026: 1,614 New Orleans records, with reports dated through October 21. October can be selected, but ticket counts after September 30 are unavailable and gap rankings are disabled for ranges extending past that date. The map is a static snapshot, not a live feed.
 
