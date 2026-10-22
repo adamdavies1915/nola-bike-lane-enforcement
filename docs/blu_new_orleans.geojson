@@ -30088,6 +30088,500 @@
         "date": "2026-09-17 00:00:00",
         "location": "VALID"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0764824,
+          29.9858811
+        ]
+      },
+      "properties": {
+        "id": 140077,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/4dc85880-7157-4202-a07e-cb02c01f4486_eaU86.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-09-23 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05419829972222,
+          29.9781683
+        ]
+      },
+      "properties": {
+        "id": 140299,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/1f1de10b-64dd-4ff6-90ea-fd1a1b7b261f_OtLYy.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-09-26 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05630491666666,
+          29.964340194444443
+        ]
+      },
+      "properties": {
+        "id": 140300,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/fa31447c-2333-4134-ba46-3c5c1f6e1904_BWJsh.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-09-26 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05611419444445,
+          29.969036083333332
+        ]
+      },
+      "properties": {
+        "id": 140303,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/68fa3dab-9c19-4aef-96b0-f48927354e36_rRPUz.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-09-26 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05435941666667,
+          29.978746388888887
+        ]
+      },
+      "properties": {
+        "id": 140304,
+        "obstruction": "Other  (damaged lane / snow / debris / pedestrian / etc.)",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/fa7d8064-ed35-4f17-a85b-629fbc031a74_6GEuu.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-09-23 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06262969444444,
+          29.978427861111108
+        ]
+      },
+      "properties": {
+        "id": 140305,
+        "obstruction": "Other  (damaged lane / snow / debris / pedestrian / etc.)",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/962065f4-903f-43b7-9548-d0b1ae133184_8mjjk.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-09-23 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07115936111111,
+          29.97452733333333
+        ]
+      },
+      "properties": {
+        "id": 140306,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/16b3a2fc-8a8a-4699-bfcd-7ceb527b6cb7_zqv-3.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-09-23 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05576999972222,
+          29.968624899722222
+        ]
+      },
+      "properties": {
+        "id": 140307,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/1e966ecd-ea7e-49f3-8e54-9bf3f4858bc1_i-eJP.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-09-19 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.056275,
+          29.9686
+        ]
+      },
+      "properties": {
+        "id": 140522,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/3a1b233e-b691-4219-85fb-ec6340f262ae_0N4td.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-09-28 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05629716666667,
+          29.964316666666665
+        ]
+      },
+      "properties": {
+        "id": 141012,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/cd4933cf-d0fe-443e-bf15-247054210ce8_Uc3gj.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-01 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0732945,
+          29.94918
+        ]
+      },
+      "properties": {
+        "id": 141039,
+        "obstruction": "Taxi / Uber / Livery / Lyft",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/5d6db41b-dd80-4925-8633-cbf9b49be2c1_SouK0.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-02 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07008398317092,
+          29.949333406165614
+        ]
+      },
+      "properties": {
+        "id": 141079,
+        "obstruction": "Company Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/f566eb49-fcb3-4f37-8ebb-3b4558b736fe_lDRas.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-02 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06194302777777,
+          29.96776961111111
+        ]
+      },
+      "properties": {
+        "id": 141425,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/bc0a90a8-31ec-4233-bec0-3c88c897c1a7_uC5AB.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-05 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05635833333334,
+          29.968507749999997
+        ]
+      },
+      "properties": {
+        "id": 141427,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/4d41dbc1-abef-41eb-b464-d43c79b842a6_wzYKN.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-05 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06193829972221,
+          29.96787499972222
+        ]
+      },
+      "properties": {
+        "id": 142226,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/786a0853-20eb-40c7-a214-917722a99d4a_td-FU.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-08 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06188329999999,
+          29.96793999972222
+        ]
+      },
+      "properties": {
+        "id": 142227,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/0fbc7206-41d5-482b-bbee-68ca91c84d70_qQAhy.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-08 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.061525,
+          29.968046599999997
+        ]
+      },
+      "properties": {
+        "id": 142228,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/e931e60c-a8d6-429b-b9cb-78fc25d54734_nzmJb.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-08 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05575561111111,
+          29.968742361111108
+        ]
+      },
+      "properties": {
+        "id": 142229,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/9214d811-fe93-40c5-9a1f-315de739c786_GlgKA.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-06 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05619459972222,
+          29.96874959972222
+        ]
+      },
+      "properties": {
+        "id": 142230,
+        "obstruction": "Company Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/aefcb9ca-9172-42e6-b88f-8e1386c3374a_2y6xN.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-05 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07246383333333,
+          29.952228333333334
+        ]
+      },
+      "properties": {
+        "id": 142774,
+        "obstruction": "Company Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/11567053-265d-45e4-9b7a-bb319e456303_AyAgb.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-17 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05588829999999,
+          29.968604999999997
+        ]
+      },
+      "properties": {
+        "id": 142941,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/0bd94f0d-67be-43e7-801d-ba7ba3dd2d60_ioZED.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-17 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05604329972222,
+          29.96863829972222
+        ]
+      },
+      "properties": {
+        "id": 142942,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/663dff6f-78a1-4f7e-9d4c-f04934c633f1_S0sb0.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-16 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05651852777777,
+          29.96857261111111
+        ]
+      },
+      "properties": {
+        "id": 142943,
+        "obstruction": "Municipal (city) Vehicle - includes USPS",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/5db75f9d-bbee-450a-bcb0-3c326b62f0e7_-d7IY.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-16 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05451963888889,
+          29.96865272222222
+        ]
+      },
+      "properties": {
+        "id": 142944,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/9b44fe1a-98a9-4ee5-b2f4-4344bce18c43_8INpV.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-15 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.102425,
+          29.926386666666666
+        ]
+      },
+      "properties": {
+        "id": 143185,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/833ed3f9-52f3-4d0a-9822-6f31e4a6816d_NTAR4.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-21 00:00:00",
+        "location": "VALID"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05688475,
+          29.96868322222222
+        ]
+      },
+      "properties": {
+        "id": 143323,
+        "obstruction": "Private Owner Vehicle",
+        "imageUrl": "https://feed.bikelaneuprising.com/nc/uploads/photos/e00d841a-85b6-4891-8ae2-daec872b50fa_afV9R.jpg",
+        "cityKey": "new-orleans-la",
+        "cityLabel": "New Orleans, LA",
+        "date": "2026-10-20 00:00:00",
+        "location": "VALID"
+      }
     }
   ]
 }
